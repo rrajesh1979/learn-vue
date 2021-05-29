@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <MongoAdminRequest msg="Mongo Admin Request App" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MongoAdminRequest from './components/MongoAdminRequest.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MongoAdminRequest: MongoAdminRequest
   }
 }
 </script>
